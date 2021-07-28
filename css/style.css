@@ -128,6 +128,20 @@ header{
     padding: 10px;
     padding-right: 30px;
 }
+
+.search_box input:focus{
+    outline: 0;
+}
+
+.search_box i{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
 /*-- header section end --*/
 
 /*-- banner section start --*/
@@ -235,7 +249,7 @@ header{
 /*-- support section start --*/
 #support {
     background-color: #f1f1f1;
-    height: 130px;
+    height: 22vh;
 }
 
 #support .support_item {
@@ -287,6 +301,10 @@ header{
 .featured_product_section .featured_filter_menu ul li:hover{
     border: 1px solid black;
     color: #de4644;
+}
+
+#featured .latest_product_item{
+    padding-bottom: 30px;
 }
 /*-- feature section end --*/
 
@@ -611,6 +629,7 @@ header{
 
 #our_blog .opacity{
     position: absolute;
+    color: #fff;
     top: 0;
     left: 0;
     right: 0;
@@ -626,22 +645,45 @@ header{
     transform: scaleY(1);
 }
 
-#our_blog .opacity ul{
+#our_blog .opacity h4{
+    font-size: 14px;
+    top: 5px;
+    left: 10px;
+    position: absolute;
+}
+
+#our_blog .opacity a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    font-size: 12px;
+    transition: all linear .5s;
+}
+
+#our_blog .opacity a:hover{
+    background-color: #fff;
+    color: #de4644;
+}
+
+#our_blog .opacity p{
     position: absolute;
     bottom: 0;
-    text-align: center;
-}
-#our_blog .opacity ul li{
-    display: inline-block;
-}
-
-#our_blog .opacity ul li a{
-    display: inline-block;
-    font-size:14px;
-    color: #fff;
-    padding: 5px 10px;
+    left:0;
+    right: 0;
+    font-size: 14px;
 }
 
+#our_blog .opacity span {
+    padding-right: 10px;
+}
 /*-- our_blog section end --*/
 
 /*-- footer section start --*/
@@ -650,89 +692,115 @@ header{
     height: 60vh;
     color: #fff;
     margin-top: 60px;
+    padding-top: 60px;
 }
 
-#footer h4{
-    font-size: 16px;
-    font-weight: 700;
+#footer h2{
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 20px;
 }
 
-#footer i{
-    padding-right: 10px;
-}
-
-#footer a{
+#footer .logo img{
     display: block;
+    width: 50%;
+    height: 40%;
+}
+
+
+#footer .logo p{
+    font-size: 14px;
+    color: #fff;
+    padding-top: 30px;
+    line-height: 26px;
+}
+
+#footer .contact_us p{
+    margin: 25px 0;
+}
+
+#footer .contact_us i{
+    margin-right: 20px;
+}
+
+#footer .contact_us a{
+    font-size: 13px;
     color: #fff;
     transition: all linear .3s;
-    padding: 8px 0;
 }
 
-#footer a:hover{
-    color: #de4644;
+#footer .contact_us a:hover{
+    color: red;
+    padding-left: 5px;
 }
 
-#footer .info1,
-#footer .info2,
-#footer .info3,
-#footer .info4{
-    margin-top: 20%;
+#footer .account p{
+    margin-top: 16px;
 }
 
-#footer .info1 .tit,
-#footer .info2 .tit,
-#footer .info3 .tit,
-#footer .info4 .tit{
-    margin-bottom: 20px;
+#footer .account a{
+    font-size: 13px;
+    color: #fff;
+    transition: all linear .3s;
 }
 
-#footer .info1 img{
-    width: 60%;
+#footer .account a:hover{
+    color: red;
+    padding-left: 5px;
 }
 
-#footer .info1 p{
-    font-size: 15px;
-    margin-bottom: 20px;
+#footer .input-group input{
+    background-color: #555555;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: all linear .3s;
 }
 
-#footer .message{
-    padding-bottom: 30px;
+#footer .input-group input:hover{
+    box-shadow: 2px 2px 5px #fff, -2px -2px 5px #fff;
+    border: 1px solid #de4644;
 }
 
-#footer .info4 .button{
-    background-color:#de4644;
-    border: none;
-    margin-left: -10px;
-    padding: 3px 5px;
+#footer .input-group input:focus{
+    outline: 0;
 }
 
-#footer .info4 .anchor a{
+#footer .footer_anchor a{
+    padding-top: 30px;
     display: inline-block;
 }
+#footer .footer_anchor i{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+    color: black;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 18px;
+    transition: all linear .5s;
+}
 
-#footer .info4 .anchor a i{
-   font-size: 40px;
+#footer .footer_anchor i:hover{
+    background-color: #de4644;
+    color: #fff;
 }
 /*-- footer section end --*/
 
-/*-- last_footer section start --*/
-#last_footer{
-    height: 8vh;
+/*-- footer_end section start --*/
+#footer_end{
     background-color: #555555;
-    padding-top: 10px;
-}
-
-#last_footer span{
+    padding: 20px 0;
     color: #fff;
 }
 
-#last_footer a{
-    color: #de4644;
-}
-
-#last_footer img{
-    width: 40px;
-    height: 20px;
-    margin-right: 10px;
+#footer_end img{
+    width: 36px;
+    height: 26px;
+    display: inline-block;
+    margin-right: 12px;
 }
 /*-- lastfooter section end --*/

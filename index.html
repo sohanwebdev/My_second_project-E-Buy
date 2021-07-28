@@ -9,13 +9,14 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/slick.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
     <header>
         <section id="top_header">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-12">
                         <div class="left_side">
                             <ul>
                                 <li>
@@ -36,7 +37,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 d-none d-lg-block">
                         <div class="right_side">
                             <ul>
                                 <li>
@@ -62,7 +63,7 @@
                 </div>
             </div>
         </section>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-0 py-lg-2" id="myNav">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="img/logo.png">
@@ -91,7 +92,7 @@
                             <a href="#" class="nav-link">Contact</a>
                         </li>
                     </ul>
-                    <div class="search_cart">
+                    <div class="search_cart d-none d-lg-block">
                         <div class="search_box">
                             <input type="text">
                             <i class="fa fa-search"></i>
@@ -103,6 +104,46 @@
                 </div>
             </div>
         </nav>
+        <div class="mobile_menu">
+            <div class="container">
+                <div class="row">
+                    <ul class="col-6 d-lg-none col-md-block">
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-heart"></i>
+                               <span class="d-none col-md-block">Wishlist</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-user"></i>
+                               <span class="d-none col-md-block"> My Account</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-user"></i>
+                               <span class="d-none col-md-block"> Login/Register</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="col-6 d-lg-none col-md-block">
+                        <li>
+                            <div class="cart_icon">
+                               <span class="d-none col-md-block"> 2items</span>
+                                <i class="fas fa-shopping-bag"></i>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="search_box">
+                                <i class="fa fa-search"></i>
+                                <input type="text">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </header>
     <!-- banner section item start -->
     <section id="banner">
@@ -110,7 +151,7 @@
             <div class="slider_item" style="background-image: url('img/banner1.jpg')">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
-                        <div class="col-5 group">
+                        <div class="col-12 col-md-8 col-lg-5 group">
                             <h2>2017</h2>
                             <h3>TRENDY DESIGN</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi quisquam provident quasi ea mollitia adipisci doloremque nihil impedit, eligendi magnam voluptatem quas? Officia, numquam error?</p>
@@ -123,7 +164,7 @@
             <div class="slider_item" style="background-image: url('img/banner2.jpg')">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
-                        <div class="col-5 group">
+                        <div class="col-12 col-md-8 col-lg-5 group">
                             <h2>2017</h2>
                             <h3>TRENDY DESIGN</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi quisquam provident quasi ea mollitia adipisci doloremque nihil impedit, eligendi magnam voluptatem quas? Officia, numquam error?</p>
@@ -136,7 +177,7 @@
             <div class="slider_item" style="background-image: url('img/banner3.jpg')">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
-                        <div class="col-5 group">
+                        <div class="col-12 col-md-8 col-lg-5 group">
                             <h2>2017</h2>
                             <h3>TRENDY DESIGN</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi quisquam provident quasi ea mollitia adipisci doloremque nihil impedit, eligendi magnam voluptatem quas? Officia, numquam error?</p>
@@ -149,7 +190,7 @@
             <div class="slider_item" style="background-image: url('img/banner4.jpg')">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
-                        <div class="col-5 group">
+                        <div class="col-12 col-md-8 col-lg-5 group">
                             <h2>2017</h2>
                             <h3>TRENDY DESIGN</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi quisquam provident quasi ea mollitia adipisci doloremque nihil impedit, eligendi magnam voluptatem quas? Officia, numquam error?</p>
@@ -166,16 +207,16 @@
     <!-- support section start -->
     <section id="support">
         <div class="container">
-            <div class="row text-center">
-                <div class="col-md-4 support_item">
+            <div class="row text-center justify-content-center">
+                <div class="col-xm-12 col-sm-8 col-md-4  support_item">
                     <h2><i class="fas fa-truck"></i>Free Shipping</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, consectetur.</p>
                 </div>
-                <div class="col-md-4 support_item">
+                <div class="col-xm-12 col-sm-8 col-md-4 support_item">
                     <h2><i class="far fa-life-ring"></i>24/7 Support</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, consectetur.</p>
                 </div>
-                <div class="col-md-4 support_item">
+                <div class="col-xm-12 col-sm-8 col-md-4 support_item">
                     <h2><i class="fas fa-money-bill-alt"></i>Cashback</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, consectetur.</p>
                 </div>
@@ -187,8 +228,8 @@
     <!-- newest_main section start -->
     <section id="newest">
         <div class="container">
-            <div class="row text-center">
-                <div class="col-md-4">
+            <div class="row text-center justify-content-center">
+                <div class="col-xs-4 col-sm-8 col-md-4 pb-4">
                    <div class="newest_item">
                         <div class="thum">
                             <img src="img/newest1.jpg">
@@ -200,7 +241,7 @@
                         </div>
                    </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-xs-4 col-sm-8 col-md-4 pb-4">
                     <div class="newest_item">
                          <div class="thum">
                              <img src="img/newest2.jpg">
@@ -212,7 +253,7 @@
                          </div>
                     </div>
                  </div>
-                 <div class="col-md-4">
+                 <div class="col-xs-4 col-sm-8 col-md-4 pb-4">
                     <div class="newest_item">
                          <div class="thum">
                              <img src="img/newest3.jpg">
@@ -244,8 +285,8 @@
                         <li data-filter="4">Accesorries</li>
                     </ul>
                 </div>
-                <div class="row featured_filter_container">
-                    <div class="col-md-3 latest_product_item filtr-item" data-category="1,3">
+                <div class="row featured_filter_container justify-contentX-center">
+                    <div class="col-sm-6 col-lg-3 col-8 latest_product_item filtr-item" data-category="1,3">
                         <div class="latest_product_pic">
                             <a href="#">
                                 <img src="img/featured1.jpg">
@@ -270,7 +311,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 latest_product_item filtr-item" data-category="2,4">
+                    <div class="col-sm-6 col-lg-3 col-8 latest_product_item filtr-item" data-category="2,4">
                         <div class="latest_product_pic">
                             <a href="#">
                                 <img src="img/featured2.jpg">
@@ -295,7 +336,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 latest_product_item filtr-item" data-category="3,1">
+                    <div class="col-sm-6 col-lg-3 col-8 latest_product_item filtr-item" data-category="3,1">
                         <div class="latest_product_pic">
                             <a href="#">
                                 <img src="img/featured3.jpg">
@@ -320,7 +361,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 latest_product_item filtr-item" data-category="4,2">
+                    <div class="col-sm-6 col-lg-3 col-8 latest_product_item filtr-item" data-category="4,2">
                         <div class="latest_product_pic">
                             <a href="#">
                                 <img src="img/featured4.jpg">
@@ -345,7 +386,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 latest_product_item filtr-item" data-category="1,4">
+                    <div class="col-sm-6 col-lg-3 col-8 latest_product_item filtr-item" data-category="1,4">
                         <div class="latest_product_pic">
                             <a href="#">
                                 <img src="img/featured2.jpg">
@@ -370,7 +411,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 latest_product_item filtr-item" data-category="3,4">
+                    <div class="col-sm-6 col-lg-3 col-8 latest_product_item filtr-item" data-category="3,4">
                         <div class="latest_product_pic">
                             <a href="#">
                                 <img src="img/featured4.jpg">
@@ -395,7 +436,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 latest_product_item filtr-item" data-category="3,4">
+                    <div class="col-sm-6 col-lg-3 col-8 latest_product_item filtr-item" data-category="3,4">
                         <div class="latest_product_pic">
                             <a href="#">
                                 <img src="img/featured3.jpg">
@@ -420,7 +461,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 latest_product_item filtr-item" data-category="4,1">
+                    <div class="col-sm-6 col-lg-3 col-8 latest_product_item filtr-item" data-category="4,1">
                         <div class="latest_product_pic">
                             <a href="#">
                                 <img src="img/featured1.jpg">
@@ -454,13 +495,13 @@
     <!-- UpComing section start -->
     <section id="UpComing">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
+            <div class="row justify-content-center">
+                <div class="col-sm-8 col-lg-6">
                     <div class="product_img">
                         <img src="img/macbook.png">
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-8 col-lg-6">
                     <div class="product_info">
                         <h3>NEW PRODUCT</h3>
                         <h2>MICROSOFT SURFACE PRO</h2>
@@ -484,7 +525,7 @@
                 <h2>Latest Product</h2>
             </div>
             <div class="latest_product_section">
-                <div class="latest_product_item col-md-3 p-2">
+                <div class="latest_product_item col-sm-6 col-md-3 p-2">
                     <div class="latest_product_pic">
                         <a href="#">
                             <img src="img/latest1.jpg">
@@ -509,7 +550,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="latest_product_item col-md-3 p-2">
+                <div class="latest_product_item col-sm-6 col-md-3 p-2">
                     <div class="latest_product_pic">
                         <a href="#">
                             <img src="img/latest2.jpg">
@@ -534,7 +575,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="latest_product_item col-md-3 p-2">
+                <div class="latest_product_item col-sm-6 col-md-3 p-2">
                     <div class="latest_product_pic">
                         <a href="#">
                             <img src="img/latest3.jpg">
@@ -559,7 +600,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="latest_product_item col-md-3 p-2">
+                <div class="latest_product_item col-sm-6 col-md-3 p-2">
                     <div class="latest_product_pic">
                         <a href="#">
                             <img src="img/latest4.jpg">
@@ -584,7 +625,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="latest_product_item col-md-3 p-2">
+                <div class="latest_product_item col-sm-6 col-md-3 p-2">
                     <div class="latest_product_pic">
                         <a href="#">
                             <img src="img/latest1.jpg">
@@ -609,7 +650,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="latest_product_item col-md-3 p-2">
+                <div class="latest_product_item col-sm-6 col-md-3 p-2">
                     <div class="latest_product_pic">
                         <a href="#">
                             <img src="img/latest3.jpg">
@@ -648,7 +689,7 @@
             <div class="slider">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6">
                             <div class="testimonial_item d-flex flex-wrap">
                                 <div class="col-md-3 testimonial_img">
                                     <img src="img/testimonial1.png">
@@ -661,7 +702,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6">
                             <div class="testimonial_item d-flex flex-wrap">
                                 <div class="col-md-3 testimonial_img">
                                     <img src="img/testimonial2.png">
@@ -719,16 +760,32 @@
             <div class="section_title">
                 <h2>Our Blog</h2>
             </div>
-            <div class="row">
-                <div class="col-md-4">
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-xm-8 pb-3">
                     <div class="item_img">
                         <img src="img/blog1.jpg">
                         <div class="opacity">
-                            <ul>
-                                <li><a href="#"><i class="fas fa-user"></i>By Admin</a></li>
-                                <li><a href="#"><i class="far fa-thumbs-up"></i>2.5K Likes</a></li>
-                                <li><a href="#"><i class="fas fa-comments"></i>1.5K Commenst</a>
-                            </ul>
+                            <h4>
+                                <i class="far fa-calendar-alt"></i>
+                                26 Oct 2021
+                            </h4>
+                            <a href="#">
+                                <i class="fas fa-link"></i>
+                            </a>
+                            <p class="text-center pb-2">
+                                <span>
+                                    <i class="fas fa-user"></i>
+                                    By:Admin
+                                </span>
+                                <span>
+                                    <i class="fas fa-user"></i>
+                                    2.5K Likes
+                                </span>
+                                <span>
+                                    <i class="far fa-comment"></i>
+                                    1.5K Comments
+                                </span>
+                            </p>
                         </div>
                     </div>
                     <div class="item_info">
@@ -737,15 +794,31 @@
                         <a href="#">READ MORE <i class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-xm-8 pb-3">
                     <div class="item_img">
                         <img src="img/blog2.jpg">
                         <div class="opacity">
-                            <ul>
-                                <li><a href="#"><i class="fas fa-user"></i>By Admin</a></li>
-                                <li><a href="#"><i class="far fa-thumbs-up"></i>2.5K Likes</a></li>
-                                <li><a href="#"><i class="fas fa-comments"></i>1.5K Commenst</a>
-                            </ul>
+                            <h4>
+                                <i class="far fa-calendar-alt"></i>
+                                26 Oct 2021
+                            </h4>
+                            <a href="#">
+                                <i class="fas fa-link"></i>
+                            </a>
+                            <p class="text-center pb-2">
+                                <span>
+                                    <i class="fas fa-user"></i>
+                                    By:Admin
+                                </span>
+                                <span>
+                                    <i class="fas fa-user"></i>
+                                    2.5K Likes
+                                </span>
+                                <span>
+                                    <i class="far fa-comment"></i>
+                                    1.5K Comments
+                                </span>
+                            </p>
                         </div>
                     </div>
                     <div class="item_info">
@@ -754,15 +827,31 @@
                         <a href="#">READ MORE <i class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-xm-8 pb-3">
                     <div class="item_img">
                         <img src="img/blog3.jpg">
                         <div class="opacity">
-                            <ul>
-                                <li><a href="#"><i class="fas fa-user"></i>By Admin</a></li>
-                                <li><a href="#"><i class="far fa-thumbs-up"></i>2.5K Likes</a></li>
-                                <li><a href="#"><i class="fas fa-comments"></i>1.5K Commenst</a>
-                            </ul>
+                            <h4>
+                                <i class="far fa-calendar-alt"></i>
+                                26 Oct 2021
+                            </h4>
+                            <a href="#">
+                                <i class="fas fa-link"></i>
+                            </a>
+                            <p class="text-center pb-2">
+                                <span>
+                                    <i class="fas fa-user"></i>
+                                    By:Admin
+                                </span>
+                                <span>
+                                    <i class="fas fa-user"></i>
+                                    2.5K Likes
+                                </span>
+                                <span>
+                                    <i class="far fa-comment"></i>
+                                    1.5K Comments
+                                </span>
+                            </p>
                         </div>
                     </div>
                     <div class="item_info">
@@ -777,84 +866,108 @@
     <!-- our blog section end -->
 
     <!-- footer section start -->
-    <section id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="info1">
-                        <div class="tit">
-                            <img src="img/footer-logo.png">
-                        </div>
-                        <div class="info1_list">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                            <p>magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="info2">
-                        <div class="tit">
-                           <h4>CONTACT US</h4>
-                        </div>
-                        <div class="info2_list">
-                            <a href="#"><i class="fas fa-map-marker-alt"></i>123,Park Avnew,New York</a>
-                            <a href="#"><i class="fas fa-phone-volume"></i>+123456789,+673474389</a>
-                            <a href="#"><i class="fas fa-envelope"></i>info@gmail.com,e-gaoi@gmail.com</a>
-                            <a href="#"><i class="fas fa-globe-americas"></i>www.e-feri.com,www.infoferi.com</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="info3">
-                        <div class="tit">
-                           <h4>MY ACCOUNT</h4>
-                        </div>
-                        <div class="info3_list">
+   <section id="footer">
+       <div class="container">
+           <div class="row justify-content-center">
+               <div class="col-md-3 col-sm-6 col-8">
+                   <div class="logo">
+                       <a href="#">
+                           <img src="img/logo.png">
+                       </a>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                       <p>magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                   </div>
+               </div>
+               <div class="col-md-3 col-sm-6 col-8">
+                   <div class="contact_us">
+                       <h2>contact us</h2>
+                       <p>
+                            <i class="fas fa-map-marker"></i>
+                            <a href="#">1234,Parkstreet Avenue,NewYork</a>
+                       </p>
+                       <p>
+                            <i class="fas fa-phone-alt"></i>
+                            <a href="#">+123 456 78900,</a>
+                            <a href="#">+009 876 54321</a>
+                       </p>
+                       <p>
+                            <i class="fas fa-envelope"></i>
+                            <a href="#">info@e-feri.com,</a>
+                            <a href="#">e-feri@info.con</a>
+                       </p>
+                       <p>
+                            <i class="fas fa-globe-americas"></i>
+                            <a href="#">www.e-feri.com,</a>
+                            <a href="#">www.infoferi.com</a>
+                       </p>
+                   </div>
+               </div>
+               <div class="col-md-2 col-sm-6 col-8">
+                   <div class="account">
+                       <h2>my account</h2>
+                       <p>
                             <a href="#">My Account</a>
+                        </p>
+                        <p>
                             <a href="#">Wishlist</a>
+                        </p>
+                        <p>
                             <a href="#">Shoping Cart</a>
+                        </p>
+                        <p>
                             <a href="#">Compare</a>
+                        </p>
+                        <p>
                             <a href="#">CheckOut</a>
+                        </p>
+                   </div>
+               </div>
+               <div class="col-md-4 col-sm-6 col-8">
+                   <div class="newsletter">
+                       <h2>sign up for newsletter</h2>
+                        <form>
+                            <div class="input-group mb-5">
+                                <input type="text" placeholder="your email address" class="text-center">
+                                <button class="btn btn-danger">SUBMIT</button>
+                            </div>
+                        </form>
+                        <div class="footer_anchor">
+                            <h2>follow us on</h2>
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-paypal"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
                         </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="info4">
-                        <div class="tit">
-                           <h4>SIGN UP FOR NEWSLETTER</h4>
-                        </div>
-                        <div class="message">
-                            <input type="text" size="20" placeholder="message">
-                            <button type="submit" class="button">Submit</button>
-                        </div>
-                        <div class="tit">
-                            <h4>FOLLOW US ON</h4>
-                         </div>
-                         <div class="anchor text-align-center">
-                             <a href="#"><i class="fab fa-facebook"></i></a>
-                             <a href="#"><i class="fab fa-twitter-square"></i></a>
-                             <a href="#"><i class="fab fa-cc-paypal"></i></a>
-                             <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fab fa-facebook-messenger"></i></a>
-                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
     <!-- footer section end -->
 
     <!-- last_footer section start -->
-    <section id="last_footer">
+    <section id="footer_end">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
-                    <span>Copyright © 2017. All right reserved by</span>
-                    <a href="#">E-Buy</a>
+                <div class="col-md-6 col-xs-12">
+                    <div class="discription">
+                        <p>Copyright © 2017. All right reserved by
+                            <a href="#" class="text-danger">E-BUY</a>
+                        </p>
+                    </div>
                 </div>
-                <div class="col-md-4 text-align-right">
+                <div class="col-md-6 col-xs-12 text-end">
                     <img src="img/card1.png">
                     <img src="img/card2.png">
                     <img src="img/card3.png">
