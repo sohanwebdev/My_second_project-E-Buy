@@ -4,7 +4,7 @@ $(function() {
        prevArrow:'<i class="fas fa-chevron-left slider_arrow left"></i>',
        nextArrow:'<i class="fas fa-chevron-right slider_arrow right"></i>',
        speed: 500,
-       fade: true,
+       fadeOut: true,
        cssEase: 'linear'
     });
 
@@ -27,7 +27,7 @@ $(function() {
         ]
     });
 
-    $('.count_down').countdown('2021/10/10', function (event) {
+    $('.count_down').countdown('2040/10/10', function (event) {
         var $this = $(this).html(event.strftime(''
             +'<div class="col-3"><div class="count_down_item"><span>%d</span><span>Days</span></div></div>'
             +'<div class="col-3"><div class="count_down_item"><span>%H</span><span>Hours</span></div></div>'
@@ -39,6 +39,15 @@ $(function() {
         prevArrow:'<i class="fas fa-chevron-left test_arrow left"></i>',
         nextArrow:'<i class="fas fa-chevron-right test_arrow right"></i>',
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 2000,
+        responsive: [
+            {
+                breakpoint: 568,
+                settings: {
+                  slidesToShow: 1,
+                }
+            },
+        ]
+
      });
 });

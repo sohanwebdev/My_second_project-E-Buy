@@ -1,4 +1,588 @@
-@media (max-width: 991.98px) {
+/*-- Extra Extra Large start --*/
+@media (min-width:1400px){}
+/*-- Extra Extra Large end --*/
+
+/*-- Extra Large Start --*/
+@media (min-width:1200px) and (max-width:1399.98px){}
+/*-- Extra Large end --*/
+
+
+/*-- Large Start --*/
+@media (min-width:992px) and (max-width:1199.98px){
+    #banner .slider_item {
+        height: 480px;
+    }
+
+    #support .support_item h2{
+        font-size: 19px;
+        padding-bottom: 2px;
+    }
+
+    #support .support_item p{
+        font-size: 14px;
+        color: gray;
+        padding-bottom: 4px;
+    }
+
+    #newest .newest_item .thum img{
+        width: 95%;
+    }
+
+    #newest .newest_item .over_lay{
+        top: 50%;
+    }
+    
+    #newest .newest_item .over_lay h2{
+        padding-top: 5px;
+        font-size: 28px;
+        font-weight: 400;
+    }
+    
+    #newest .newest_item .over_lay h4{
+        font-size: 22px;
+        font-weight: 400;
+        padding: 2px 0;
+    }
+    
+    #newest .newest_item .over_lay a{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        padding: 8px 18px;
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    #UpComing .product_img{
+        margin-left: -10px;
+    }
+
+    #UpComing .product_img img{
+       height: 290px;
+    }
+
+    #UpComing .product_info h3{
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    #UpComing .product_info h2{
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    #UpComing .product_info p{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22px;
+        padding: 10px 0;
+    }
+
+    #UpComing .product_info .count_down_section h3{
+        font-size: 18px;
+    }
+
+    #UpComing .count_down .count_down_item{
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        border: 1px solid gray;
+        line-height: 25px;
+    }
+    
+    #UpComing .count_down span{
+        display: block;
+        font-size: 16px;
+        font-weight: 500;
+        padding-top: 2px;
+    }
+
+    .latest_product_pic .latest_product_overlay{
+        width: 72px;
+    }
+    
+    .latest_product_pic .latest_product_overlay ul li a{
+       width: 35px;
+       height: 35px;
+       line-height: 35px;
+       font-size: 18px;
+    }
+
+    .latest_product_item .latest_product_info h6{
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .latest_product_item .latest_product_info p{
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .latest_product_item .latest_product_info .rating i{
+        color: #de4644;
+        font-size: 14px;
+    }
+
+    #testimonial{
+        margin: 18px 0;
+        height: 50vh;
+    }
+
+    #testimonial .testimonial_bg{
+        height: 42vh;
+    }
+
+    #testimonial .testimonial_bg .testimonial_item{
+        margin-top: 60px;
+    }
+
+    #our_blog .item_img img{
+        height: 70%;
+    }
+
+    #our_blog .opacity h4{
+        font-size: 12px;
+    }
+
+    #our_blog .opacity a{
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    #our_blog .opacity p{
+        font-size: 12px;
+    }
+    
+    #our_blog .opacity span {
+        padding-right: 5px;
+    }
+
+    #our_blog .item_info h5{
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    #our_blog .item_info p{
+        font-size: 13px;
+    }
+    
+    #our_blog .item_info a{
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+    #footer {
+        background-color: #333333;
+        height: 25vh;
+        color: #fff;
+        margin-top: 20px;
+        padding-top: 30px;
+    }
+
+    #footer h2{
+        font-size: 14px;
+        font-weight: 600;
+        padding-bottom: 12px;
+    }
+
+    #footer .logo img{
+        width: 42%;
+        height: 35%;
+    }
+
+    #footer .logo p{
+        font-size: 12px;
+        color: #fff;
+        padding-top: 26px;
+        line-height: 26px;
+    }
+
+    #footer .contact_us p{
+        margin: 20px 0;
+    }
+    
+    #footer .contact_us i{
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+    #footer .contact_us a{
+        font-size: 12.2px;
+    }
+
+    #footer .account p{
+        margin-top: 10px;
+    }
+    
+    #footer .account a{
+        font-size: 12.2px;
+        color: #fff;
+        transition: all linear .3s;
+    }
+
+    #footer .input-group input{
+      width: 120px;
+      height: 28px;
+      margin-bottom: 10px;
+    }
+
+    #footer .input-group button{
+        font-size: 12px;
+        width: 65px !important;
+        height: 28px !important;
+        font-weight: 600;
+    }
+
+    #footer .footer_anchor a{
+        padding-top: 24px;
+    }
+    #footer .footer_anchor i{
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 13px;
+    }
+
+    #footer_end{
+        padding: 12px 0;
+    }
+
+    #footer_end P{
+        font-size: 12px;
+    }
+
+    #footer_end img{
+        width: 30px;
+        height: 20px;
+        margin-right: 12px;
+    }
+    
+}
+/*-- Large end --*/
+
+/*-- Medium Start --*/
+@media (min-width:768px) and (max-width:991.98px){
+    #banner .slider_item{
+        height: 440px;
+    }
+
+    #banner h2{
+        font-size: 40px;
+        font-weight: 700;
+        color: #de4644;
+    }
+    
+    #banner h3{
+        font-size: 35px;
+        font-weight: 500;
+        color: #fff;
+        margin-top: 3px;
+        padding-bottom: 3px;
+    }
+    
+    #banner p{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22px;
+        padding-bottom: 20px;
+        color: #f1f1f1;
+    }
+
+    #banner .slider_item a{
+        padding: 10px 16px;
+        font-weight: 500;
+        margin-right: 5px;
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    #support .support_item h2{
+        font-size: 17px;
+        padding-bottom: 2px;
+    }
+
+    #support .support_item p{
+        font-size: 12px;
+        color: gray;
+        padding-bottom: 4px;
+    }
+
+    #newest .newest_item .thum img{
+        width: 90%;
+    }
+
+    #newest .newest_item .over_lay{
+        bottom: 10px;
+        right: 20px;
+        left: 20px;
+        top: 55%;
+    }
+    
+    #newest .newest_item .over_lay h2{
+        padding-top: 5px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    #newest .newest_item .over_lay h4{
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 8px;
+    }
+    
+    #newest .newest_item .over_lay a{
+        width: 15px;
+        height: 15px;
+        line-height: 15px;
+        padding: 4px 8px;
+        font-weight: 300;
+        font-size: 8px;
+    }
+
+    .featured_product_section .featured_filter_menu ul li{
+        display: inline-block;
+        margin: 14px 4px;
+        border: 1px solid transparent;
+        padding: 6px 6px;
+        transition: all linear .3s;
+        border-radius: 5px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .latest_product_pic .latest_product_overlay{
+        width: 65px;
+    }
+    
+    .latest_product_pic .latest_product_overlay ul li a{
+       width: 35px;
+       height: 35px;
+       line-height: 35px;
+       font-size: 14px;
+    }
+
+    .latest_product_item .latest_product_info h6{
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .latest_product_item .latest_product_info p{
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .latest_product_item .latest_product_info .rating i{
+        font-size: 12px;
+    }
+
+    #UpComing .product_img img{
+       height: 200px;
+    }
+
+    #UpComing .product_info h3{
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    #UpComing .product_info h2{
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    #UpComing .product_info p{
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 22px;
+        padding-top: 10px;
+        padding-bottom: 2px;
+    }
+
+    #UpComing .product_info .count_down_section h3{
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+    #UpComing .count_down .count_down_item{
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        border: 1px solid gray;
+        line-height: 18px;
+    }
+    
+    #UpComing .count_down span{
+        display: block;
+        font-size: 12px;
+        font-weight: 500;
+        padding-top: 1px;
+    }
+
+    #testimonial{
+        margin: 10px 0;
+        height: 38vh;
+    }
+
+    #testimonial .testimonial_bg{
+        height: 30vh;
+    }
+
+    #testimonial .testimonial_bg .testimonial_item{
+        margin-top: 18px;
+    }
+
+    #testimonial .testimonial_bg .testimonial_item .testimonial_info h2{
+        font-size: 18px;
+    }
+
+    #testimonial .testimonial_bg .testimonial_item .testimonial_info h3{
+        font-size: 14px;
+    }
+
+    #testimonial .testimonial_bg .testimonial_item .testimonial_info p{
+        font-size: 16px;
+    }
+
+    #testimonial .testimonial_bg .testimonial_item .testimonial_info h4{
+        font-size: 26px;
+        margin-top: -3px;
+    }
+
+    #our_blog .item_img img{
+        height: 65%;
+    }
+
+    #our_blog .opacity h4{
+        font-size: 10px;
+    }
+
+    #our_blog .opacity a{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        font-size: 6px;
+    }
+
+    #our_blog .opacity p{
+        font-size: 10px;
+    }
+    
+    #our_blog .opacity span {
+        padding-right: 2px;
+    }
+
+    #our_blog .item_info h5{
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+    #our_blog .item_info p{
+        font-size: 13px;
+    }
+    
+    #our_blog .item_info a{
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+    #footer {
+        background-color: #333333;
+        height: 24vh;
+        color: #fff;
+        margin-top: 15px;
+        padding-top: 25px;
+    }
+
+    #footer h2{
+        font-size: 12px;
+        font-weight: 400;
+        padding-bottom: 10px;
+    }
+
+    #footer .logo img{
+        width: 40%;
+        height: 32%;
+    }
+
+    #footer .logo p{
+        font-size: 11px;
+        color: #fff;
+        padding-top: 23px;
+        line-height: 23px;
+    }
+
+    #footer .contact_us p{
+        margin: 4px 0;
+    }
+    
+    #footer .contact_us i{
+        margin-right: 2px;
+        font-size: 10px;
+    }
+
+    #footer .contact_us a{
+        font-size: 11px;
+    }
+
+    #footer .account p{
+        margin-top: 12px;
+    }
+    
+    #footer .account a{
+        font-size: 10px;
+    }
+
+    #footer .input-group input{
+      width: 120px;
+      height: 28px;
+      margin-bottom: 8px;
+    }
+
+    #footer .input-group button{
+        font-size: 10px;
+        width: 65px !important;
+        height: 28px !important;
+        font-weight: 600;
+    }
+
+    #footer .footer_anchor h2{
+        font-size: 14px
+    }
+
+    #footer .footer_anchor a{
+        padding-top: 24px;
+    }
+    #footer .footer_anchor i{
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 13px;
+    }
+
+    #footer_end{
+        padding: 12px 0;
+    }
+
+    #footer_end P{
+        font-size: 12px;
+    }
+
+    #footer_end img{
+        width: 30px;
+        height: 20px;
+        margin-right: 12px;
+    }
+
+}
+/*-- Medium end --*/
+
+/*=======================================*/
+
+/*-- Small Start --*/
+@media (min-width:576px) and (max-width:767.98px){
     #myNav .navbar-brand img{
         width: 80%;
     }
@@ -11,15 +595,11 @@
     .mobile_menu ul li a{
         color: #fff
     }
-}
 
-@media (max-width: 767.98px) {
     #banner .slider_item{
-        height: 458px;
+        height: 358px;
     }
-}
 
-@media (min-width: 420px) and (max-width:767px) {
     #banner h2{
         font-size: 35px;
         font-weight: 700;
@@ -27,265 +607,325 @@
     }
     
     #banner h3{
-        font-size: 30px;
-        font-weight: 300;
+        font-size: 32px;
+        font-weight: 500;
         color: #fff;
-        margin-top: 3px;
+        margin-top: 1px;
         padding-bottom: 3px;
     }
     
     #banner p{
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 400;
-        line-height: 18px;
-        padding-bottom: 20px;
+        line-height: 20px;
+        width: 260px;
+        padding-bottom: 10px;
         color: #f1f1f1;
     }
 
     #banner .slider_item a{
-        padding: 6px 10px;
+        padding: 8px 14px;
         font-weight: 500;
         margin-right: 5px;
-        font-size: 12px;
+        font-size: 6px;
+        font-weight: 600;
     }
 
-    #support .support_item {
-        margin-top: 8px;
-        border-right: none;
-        height: 70%;
-    }
-    
     #support .support_item h2{
-        font-size: 18px;
-        transition: all linear .3s;
+        font-size: 17px;
         padding-bottom: 2px;
     }
 
-    #support .support_item i{
-        padding-right: 6px;
-    }
-    
     #support .support_item p{
-        font-size: 14px;
+        font-size: 12px;
         color: gray;
-        padding-bottom: 6px;
+        padding-bottom: 4px;
     }
 
-    #UpComing .product_img{
-        margin-left: 0;
+    #newest .newest_item .thum img{
+        width: 92%;
     }
 
-    #UpComing .product_info h2{
-        font-size: 20px;
-        font-weight: 300;
-    }
-    
-    #UpComing .product_info p{
-        font-size: 12px;
-        font-weight: 300;
-        color: #222222;
-        line-height: 18px;
-        padding: 6px 0;
-    }
-    
-    #UpComing .product_info .count_down_section h3{
-        font-size: 14px;
-        padding-bottom: 8px;
-        margin-top: 10px;
-        color: #222222;
-        font-weight: 400;
-    }
-
-    #UpComing .count_down .count_down_item{
-        width: 50px;
-        height: 50px;
-        text-align: center;
-        border: 1px solid gray;
-        line-height: 50px;
-    }
-    
-    #UpComing .count_down span{
-        display: inline-block;
-        font-size: 10px;
-        font-weight: 300;
-        padding-top: 5px;
-    }
-
-    #testimonial .testimonial_bg{
-        height: 65vh;
-      
-    }
-    
-    #testimonial .testimonial_bg .testimonial_item{
-        margin-top: 40px;
-    }
-    
-    #testimonial .testimonial_bg .testimonial_item .testimonial_img{
-        width: 60px;
-        height: 60px;
-       padding-right: 10px;
-    }
-    
-    #testimonial .testimonial_bg .testimonial_item .testimonial_img img{
-        border-radius: 50%;
-     }
-    
-    #testimonial .testimonial_bg .testimonial_item .testimonial_info h2{
-        font-size: 16px;
-        font-weight: 300;
-        margin-bottom: 2px;
-     }
-    
-    #testimonial .testimonial_bg .testimonial_item .testimonial_info h3{
-        font-size: 12px;
-        font-weight: 300;
-        padding-bottom: 5px;
-    }
-    
-    #testimonial .testimonial_bg .testimonial_item .testimonial_info h4{
-        font-size: 15px;
-        font-weight: 200;
-        padding-top: 10px;
-        text-align: right;
-    }
-
-    #testimonial .testimonial_info p{
-        font-size: 14px;
-    }
-    
-    .mobile_menu{
-        width: 30px;
-        height: 30px;
-        border: 1px solid black;
-        border-radius: 25px;
-        position: relative;
-        margin-left: 10px;
-        transition: all linear .5s;
-    }
-    
-    .mobile_menu input{
-        width: 100%;
-        height: 100%;
-        border: none;
-        background: none;
-        padding: 10px;
-        padding-right: 30px;
-    }
-    
-    .mobile_menu i{
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 30px;
-        height: 30px;
-        line-height: 30px;
-        text-align: center;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 420px) and (max-width:567px) {
-    #newest .newest_item img{
-        width: 75%;
-        height: 75%;
-    }
-    
-    #newest .newest_item{
-        position: relative;
-    }
-    
     #newest .newest_item .over_lay{
-        position: absolute;
         bottom: 5px;
-        right: 80px;
-        left: 80px;
-        top: 55%;
-        background-color: rgba(0, 0, 0, 0.6);
-        color: #fff;
+        right: 14px;
+        left: 14px;
+        top: 50%;
     }
-
+    
     #newest .newest_item .over_lay h2{
-        font-size: 24px;
-        font-weight: 300;
+        padding-top: 2px;
+        font-size: 12px;
+        font-weight: 500;
     }
     
     #newest .newest_item .over_lay h4{
-        font-size: 15px;
-        font-weight: 300;
-        margin-bottom: 18px;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 8px;
     }
     
     #newest .newest_item .over_lay a{
-        color: #fff;
-        width: 20px;
-        height: 20px;
-        line-height: 20px;
-        border: 1px solid white;
-        padding: 6px 12px;
-        border-radius: 5px;
+        width: 15px;
+        height: 15px;
+        line-height: 15px;
+        padding: 4px 8px;
         font-weight: 300;
         font-size: 8px;
-        transition: all linear .3s;
     }
 
     .featured_product_section .featured_filter_menu ul li{
         display: inline-block;
-        margin: 10px 4px;
+        margin: 14px 4px;
         border: 1px solid transparent;
-        padding: 6px 8px;
+        padding: 6px 6px;
         transition: all linear .3s;
         border-radius: 5px;
-        font-weight: 300;
+        font-weight: 500;
+        font-size: 14px;
     }
 
-    .latest_product_item{
-        padding-left: 30px;
-        width: 210px;
-        height: 220px;
+    .latest_product_pic{
+        width: 85%;
     }
 
     .latest_product_pic .latest_product_overlay{
-        width: 70px;
+        width: 68px;
     }
 
     .latest_product_pic .latest_product_overlay ul li a{
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 14px;
+    }
+ 
+    .latest_product_item .latest_product_info h6{
+        font-size: 12px;
+        font-weight: 700;
+    }
+ 
+    .latest_product_item .latest_product_info p{
+        font-size: 12px;
+        font-weight: 600;
+        margin-left: -15px;
+    }
+ 
+    .latest_product_item .latest_product_info .rating i{
+        font-size: 12px;
+    }
+
+    #UpComing .product_img img{
+        height: 220px;
+        width: 85%;
+        margin-left: 40px;
+    }
+ 
+    #UpComing .product_info h3{
+        font-size: 14px;
+        font-weight: 700;
+    }
+ 
+     #UpComing .product_info h2{
+        font-size: 24px;
+        font-weight: 500;
+     }
+ 
+     #UpComing .product_info p{
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 22px;
+        padding-top: 10px;
+        padding-bottom: 2px;
+     }
+ 
+     #UpComing .product_info .count_down_section h3{
+        font-size: 14px;
+        margin-top: 8px;
+     }
+ 
+     #UpComing .count_down .count_down_item{
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        border: 1px solid gray;
+        line-height: 18px;
+     }
+     
+    #UpComing .count_down span{
+        display: block;
+        font-size: 12px;
+        font-weight: 500;
+        padding-top: 1px;
+    }
+
+    #testimonial{
+        margin: 5px 0;
+        height: 35vh;
+    }
+
+    #testimonial .testimonial_bg{
+        height: 30vh;
+    }
+
+    #testimonial .testimonial_bg .testimonial_item{
+        margin-top: 14px;
+    }
+
+    #testimonial .testimonial_bg .testimonial_item .testimonial_img img{
+        width: 70px;
+        height: 70px;
+    }
+
+    #testimonial .testimonial_bg .testimonial_item .testimonial_info h2{
+        font-size: 14px;
+    }
+
+    #testimonial .testimonial_bg .testimonial_item .testimonial_info h3{
+        font-size: 10px;
+    }
+
+    #testimonial .testimonial_bg .testimonial_item .testimonial_info p{
+        font-size: 12px;
+    }
+
+
+    #testimonial .testimonial_bg .testimonial_item .testimonial_info h4{
+        font-size: 16px;
+        margin-top: -5px;
+    }
+
+    #our_blog{
+        margin-top: 20px;
+    }
+
+    #our_blog .item_img img{
+        height: 70%;
+    }
+
+    #our_blog .opacity h4{
+        font-size: 10px;
+    }
+
+    #our_blog .opacity a{
         width: 30px;
         height: 30px;
         line-height: 30px;
-        font-size: 15px;
+        text-align: center;
+        font-size: 6px;
     }
-       
-}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(max-width:419.98px) {
-    #banner .slider_item a{
-        display:none;
+    #our_blog .opacity p{
+        font-size: 10px;
     }
+    
+    #our_blog .opacity span {
+        padding: 4px;
+    }
+
+    #our_blog .item_info h5{
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    #our_blog .item_info p{
+        font-size: 10px;
+    }
+    
+    #our_blog .item_info a{
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+    #footer {
+        background-color: #333333;
+        height: 34vh;
+        color: #fff;
+        margin-top: 15px;
+        padding-top: 25px;
+    }
+
+    #footer h2{
+        font-size: 12px;
+        font-weight: 400;
+        padding-bottom: 8px;
+    }
+
+    #footer .logo img{
+        width: 35%;
+        height: 30%;
+    }
+
+    #footer .logo p{
+        font-size: 11px;
+        color: #fff;
+        padding-top: 16px;
+        line-height: 23px;
+    }
+
+    #footer .contact_us p{
+        margin-top: 4px;
+    }
+    
+    #footer .contact_us i{
+        margin-right: 2px;
+        font-size: 10px;
+    }
+
+    #footer .contact_us a{
+        font-size: 11px;
+    }
+
+    #footer .account p{
+        margin-top: 6px;
+    }
+    
+    #footer .account a{
+        font-size: 10px;
+    }
+
+    #footer .input-group input{
+      width: 120px;
+      height: 28px;
+      margin-bottom: 8px;
+    }
+
+    #footer .input-group button{
+        font-size: 10px;
+        width: 65px !important;
+        height: 28px !important;
+        font-weight: 600;
+    }
+
+    #footer .footer_anchor h2{
+        font-size: 14px
+    }
+
+    #footer .footer_anchor a{
+        padding-top: 12px;
+    }
+    #footer .footer_anchor i{
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 8px;
+    }
+
+    #footer_end{
+        padding: 12px 0;
+    }
+
+    #footer_end P{
+        font-size: 10px;
+    }
+
+    #footer_end img{
+        width: 24px;
+        height: 14px;
+        margin-right: 10px;
+    }
+
 }
+/*-- Small end --*/
+
+/*================================================================*/

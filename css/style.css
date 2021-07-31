@@ -249,11 +249,10 @@ header{
 /*-- support section start --*/
 #support {
     background-color: #f1f1f1;
-    height: 22vh;
+    padding: 12px 0;
 }
 
 #support .support_item {
-    margin-top: 15px;
     border-right: 2px solid gray;
     height: 100%;
 }
@@ -275,13 +274,62 @@ header{
 #support .support_item p{
     font-size: 15px;
     color: gray;
-    padding-bottom: 8px;
+    padding-bottom: 4px;
 }
 
 #support .support_item:last-child{
     border-right: 0px;
 }
 /*-- support section end --*/
+
+/*-- newest section start --*/
+#newest{
+    margin-top: 30px;
+}
+
+#newest .newest_item{
+    position: relative;
+}
+
+#newest .newest_item .over_lay{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    left: 20px;
+    top: 55%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+
+#newest .newest_item .over_lay h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#newest .newest_item .over_lay h4{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#newest .newest_item .over_lay a{
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    transition: all linear .3s;
+}
+
+#newest .newest_item .over_lay a:hover{
+    background-color: #de4644;
+    border: 1px solid #de4644;
+}
+/*-- newest section end --*/
 
 /*-- featured section start --*/
 .featured_product_section .featured_filter_menu ul{
@@ -307,6 +355,62 @@ header{
     padding-bottom: 30px;
 }
 /*-- feature section end --*/
+
+/*-- UpComing section start --*/
+#UpComing{
+    margin-top: 40px;
+    background-color: #f1f1f1;
+    padding: 40px 0;
+}
+
+#UpComing .product_img{
+    margin-left: -40px;
+}
+
+#UpComing .product_info h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #222222;
+}
+
+#UpComing .product_info h2{
+    font-size: 40px;
+    font-weight: 500;
+    color: #de4644;
+}
+
+#UpComing .product_info p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #222222;
+    line-height: 24px;
+    padding: 10px 0;
+}
+
+#UpComing .product_info .count_down_section h3{
+    font-size: 20px;
+    padding-bottom: 12px;
+    margin-top: 16px;
+    color: #222222;
+    font-weight: 600;
+}
+
+#UpComing .count_down .count_down_item{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border: 1px solid gray;
+    line-height: 30px;
+}
+
+#UpComing .count_down span{
+    display: block;
+    font-size: 22px;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+/*-- UpComing section end --*/
 
 /* -- latest_product section start --*/
 
@@ -365,110 +469,7 @@ header{
 }
 /* -- latest_product section end --*/
 
-/*-- newest section start --*/
-#newest{
-    margin: 50px;
-}
 
-#newest .newest_item{
-    position: relative;
-}
-
-#newest .newest_item .over_lay{
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    left: 20px;
-    top: 55%;
-    background-color: rgba(0, 0, 0, 0.6);
-    color: #fff;
-}
-
-#newest .newest_item .over_lay h2{
-    font-size: 40px;
-    font-weight: 600;
-}
-
-#newest .newest_item .over_lay h4{
-    font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
-
-#newest .newest_item .over_lay a{
-    color: #fff;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    border: 1px solid white;
-    padding: 12px 24px;
-    border-radius: 5px;
-    font-weight: 500;
-    font-size: 18px;
-    transition: all linear .3s;
-}
-
-#newest .newest_item .over_lay a:hover{
-    background-color: #de4644;
-    border: 1px solid #de4644;
-}
-/*-- newest section end --*/
-
-/*-- UpComing section start --*/
-#UpComing{
-    margin-top: 40px;
-    background-color: #f1f1f1;
-    padding: 40px 0;
-}
-
-#UpComing .product_img{
-    margin-left: -40px;
-}
-
-#UpComing .product_info h3{
-    font-size: 20px;
-    font-weight: 500;
-    color: #222222;
-}
-
-#UpComing .product_info h2{
-    font-size: 40px;
-    font-weight: 500;
-    color: #de4644;
-}
-
-#UpComing .product_info p{
-    font-size: 16px;
-    font-weight: 400;
-    color: #222222;
-    line-height: 24px;
-    padding: 10px 0;
-}
-
-#UpComing .product_info .count_down_section h3{
-    font-size: 20px;
-    padding-bottom: 12px;
-    margin-top: 16px;
-    color: #222222;
-    font-weight: 600;
-}
-
-#UpComing .count_down .count_down_item{
-    width: 80px;
-    height: 80px;
-    text-align: center;
-    border: 1px solid gray;
-    line-height: 30px;
-}
-
-#UpComing .count_down span{
-    display: block;
-    font-size: 22px;
-    font-weight: 500;
-    padding-top: 5px;
-}
-
-/*-- UpComing section end --*/
 
 /*-- latest_product start --*/
 #latest_product{
